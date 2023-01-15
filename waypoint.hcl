@@ -1,4 +1,12 @@
-project = "go-k8s"
+project = "go"
+
+runner {
+  enabled = true
+
+  data_source "git" {
+    url  = "https://github.com/abangser/waypoint-example-go"
+  }
+}
 
 app "go-k8s" {
   labels = {
