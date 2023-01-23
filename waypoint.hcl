@@ -19,8 +19,7 @@ app "go-k8s" {
     use "docker" {}
     registry {
       use "docker" {
-        # Replace with your docker image name (i.e. registry.hub.docker.com/library/go-k8s)
-        image = "your-image-here"
+        image = "abangser/waypoint-example-go"
         tag = gitrefpretty()
         local = true
       }
