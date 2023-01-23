@@ -2,6 +2,7 @@ project = "go"
 
 runner {
   enabled = true
+  profile = "kratix-production"
 
   data_source "git" {
     url  = "https://github.com/abangser/waypoint-example-go"
